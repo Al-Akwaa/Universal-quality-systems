@@ -9,6 +9,18 @@ body {
     font-weight: 300;
     background:#eee;
 }
+#toggleButton {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#toggleButton:hover {
+    background-color: #ccc;
+}
 
 .centred{margin: 0 auto;float: none}
 
