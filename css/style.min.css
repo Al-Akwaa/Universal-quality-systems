@@ -64,20 +64,20 @@ body {
 ::-moz-selection {
     color:#fff;
     text-shadow:none;
-    background:#ef8d0f
+    background:#8e7c40
 }
 ::-webkit-selection {
     color:#fff;
     text-shadow:none;
-    background:#ef8d0f
+    background:#8e7c40
 }
 ::selection {
     color:#fff;
     text-shadow:none;
-    background:#ef8d0f
+    background:#8e7c40
 }
 a {
-    color:#d37700;
+    color:#8e7c40;
     text-decoration:none;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -86,7 +86,7 @@ a {
     transition:all .2s ease-in-out
 }
 a:hover {
-    color:#f68a00;
+    color:#8e7c40;
     text-decoration:none;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -104,15 +104,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 blockquote {
-    border-right: 5px solid #ef8d0f;
-    border-left: 0px solid #ef8d0f;
+    border-right: 5px solid #8e7c40;
+    border-left: 0px solid #8e7c40;
     font-size: 16px;
     margin:15px 0 15px 0px;
     padding: 0px 28px;
 }
 
 strong {
-    font-weight:600;color:#ef8d0f
+    font-weight:600;color:#8e7c40
 }
 
 section {
@@ -186,6 +186,10 @@ section {
     background-color:#fff!important;
     border-color:#fff!important;
     color:#888!important;
+}
+.top-header-bar {
+    background: #8e7c40;
+    color: #fff;
 }
 
 .font-jfflat{
@@ -354,7 +358,7 @@ td {
     z-index:9999;
     right:15px;
     top:-40px;
-    padding:55px 30px 65px;
+    padding:55px 30px 65px ;
     font-family:"JF Flat Regular";
     font-size:42px;
     color:#fff;
@@ -370,16 +374,16 @@ td {
 }
 .navbar-default.navbar-scroll .navbar-brand {
     font-size:28px;
-    color:#ef8d0f
+    color:#8e7c40
 }
 .navbar-default.navbar-scroll .navbar-brand:hover {
     color:#444
 }
 .navbar-default .navbar-nav>li>a {
-    color:#fff;
+    color:#020202;
     font-weight:400;
-    padding: 18px 20px;
-    border-radius: 2px;
+    padding: 18px 20px 180px 200px;
+    border-radius: 5px;
 }
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
@@ -387,7 +391,7 @@ td {
 .navbar-default .navbar-nav>li>a:hover {
     position:relative;
     background-color:#fff;
-    color:#ef8d0f
+    color:#8e7c40
 }
 .navbar-default .navbar-nav>.active>a::after, 
 .navbar-default .navbar-nav>.active>a:hover::after, 
@@ -400,7 +404,7 @@ td {
     margin-left:-17px;
     width:35px;
     height:2px;
-    background-color:#ef8d0f
+    background-color:#8e7c40
 }
 .navbar-default.navbar-scroll .navbar-nav>li>a {
     color:#6b6e80
@@ -408,7 +412,7 @@ td {
 .navbar-default.navbar-scroll .navbar-nav>.active>a, .navbar-default.navbar-scroll .navbar-nav>.active>a:hover, .navbar-default.navbar-scroll .navbar-nav>li>a:focus, .navbar-default.navbar-scroll .navbar-nav>li>a:hover {
     position:relative;
     background-color:transparent;
-    color:#ef8d0f
+    color:#8e7c40
 }
 .navbar-default .navbar-nav>li.dropdown.open>a::after, .navbar-default .navbar-nav>li.dropdown.open>a:focus::after, .navbar-default .navbar-nav>li.dropdown.open>a:hover::after {
     content:'';
@@ -461,10 +465,10 @@ td {
 
 header{
     width:100%;
-    min-height:600px;
+    min-height:380px;
     height: 100%;
-    padding:0;
-    margin: 0;
+    padding:10px   ;
+    
     -webkit-background-size:cover!important;
     -moz-background-size:cover!important;
     -ms-background-size:cover!important;
@@ -1321,3 +1325,4 @@ font-family:"JF Flat Regular";
    background-color: #ef8d0f;
     border-radius: 0
 }
+
